@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const port = process.env.PORT||5000;
+//data requiring
 const  chefData =require('./data/chefData.json');
 const  details=require('./data/ChefDetails.json');
 app.use(cors());
